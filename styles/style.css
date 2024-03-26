@@ -1,7 +1,12 @@
 body{
     text-align: center;
-    background-color: lightgray;
+    background-color: black;
     font-family: Helvetica;
+    color: aliceblue;
+}
+
+.row{
+    justify-content: space-between;
 }
 
 
@@ -23,13 +28,12 @@ ol{
 }
 
 .container{
-    border: solid black 1px;
+    
     margin:0 auto;
 }
 
 #skills div{
-    border: solid black 1px; 
-    background-color: rgb(162, 162, 226);  
+    border: solid black 1px;
 }
 
 
@@ -45,7 +49,7 @@ ol{
     }
 }*/
 
-@media screen and (min-width: 700px){
+/* @media screen and (min-width: 700px){
     #skills{
         display:flex;
         justify-content: space-around;
@@ -59,7 +63,7 @@ ol{
     .column3{
         width: 20%;
     }
-}
+} */
 
 img{
     display: block;

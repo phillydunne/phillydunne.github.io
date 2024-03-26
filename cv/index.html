@@ -3,73 +3,89 @@
     
     <head>
         <title>Philip Dunne CV</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="../styles/style.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
 
 
     <body>      
         <h1>Philip Dunne CV</h1>
-        <div id="summary" class="container">
-            <h2 class="shadow">Summary</h2>
-            <p>Philip is an <span class="highlight">experienced technology professional</span> who is driven by <span class="highlight">solving problems</span> for customers, fostering a supportive and <span class="highlight">productive culture</span></p>
-            <a href="#experience">Jump To experience</a>
+        <h2 class="shadow">Summary</h2>
+        <div class="container">
+            <div class="row">
+                <div id="summary" class="col-lg-12">
+                    <p>Philip is an <span class="highlight">experienced technology professional</span> who is driven by <span class="highlight">solving problems</span> for customers, fostering a supportive and <span class="highlight">productive culture</span></p>
+                    <a href="#experience">Jump To experience</a>
+                </div>
+            </div>
         </div>
-
 
         <br>
         
         <h2 class="shadow">Skills</h2>
-        <div id="skills" class="container">
+
+        <div class="container" id="skills">
+            <div class="row">
+                <div class="col-lg-3">
+                    
+                    <span class="listHeader">Delivery</span>
+                    <p>Project Management</p>
+                    <p>Agile</p>
+                    <p>Kanban</p>
+                    <p>Catalyst</p>
+                    
+                </div>
+                <div class="col-lg-3">
+                    
+                    <span class="listHeader">Technical</span>
+                    <p>Microsoft <span class="highlight">Power Platform</span></p>
+                    <p>Architecture<span class="highlight"> - Alerting and Monitoring</span></p>
+                    <p>Splunk</p>
+                    
+                </div>
+                <div class="col-lg-3">
+                    
+                    <span class="listHeader">Leadership</span>
+                    <p>Goal setting</p>
+                    <p>Communication</p>
+                    <p>Problem solving</p>
+                    <p>Collaboration</p>
+                    
+                </div>
+            </div>
             
-            <div class="column1">
-                
-                <span class="listHeader">Delivery</span>
-                <p>Project Management</p>
-                <p>Agile</p>
-                <p>Kanban</p>
-                <p>Catalyst</p>
-                
-            </div>
-            <div class="column2">
-                
-                <span class="listHeader">Technical</span>
-                <p>Microsoft <span class="highlight">Power Platform</span></p>
-                <p>Architecture<span class="highlight"> - Alerting and Monitoring</span></p>
-                <p>Splunk</p>
-                
-            </div>
-            <div class="column3">
-                
-                <span class="listHeader">Leadership</span>
-                <p>Goal setting</p>
-                <p>Communication</p>
-                <p>Problem solving</p>
-                <p>Collaboration</p>
-                
-            </div>
         </div>
 
         <br>
 
-        <div id="education" class="container">
-            <h2 class="shadow">Education</h2>
-            <p>UCD - Mechanical Engineering</p>
-            <p>Leaving Certificate</p>
-        </div>
-        
-        <br> 
-
-        <div id="experience" class="container">
-            <h2 class="shadow">Experience</h2>
-            <p>Codec - 2021-Present</p>
-            <p>Accenture - 2011-2020</p>
+        <div class="container">
+            <div class="row">
+                <div id="education" class="col-lg-5">
+                    <h2 class="shadow">Education</h2>
+                    <p>UCD - Mechanical Engineering</p>
+                    <p>Leaving Certificate</p>
+                </div>
                 
+                <br> 
+
+                <div id="experience" class="col-lg-5">
+                    <h2 class="shadow">Experience</h2>
+                    <p>Codec - 2021-Present</p>
+                    <p>Accenture - 2011-2020</p>
+                        
+                </div>
+            </div>
         </div>
 
         <br />
 
         <div class="container">
-            <a href = "../index.html" target="_blank ">Cover Letter</a>
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href = "../index.html" target="_blank ">Cover Letter</a>
+                </div>
+            </div>
         </div>
     
 
